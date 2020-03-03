@@ -1,6 +1,6 @@
 package censusanalyser;
 
-public class CensusAnalyserException extends Exception {
+public class CensusAnalyserException extends RuntimeException {
 
     enum ExceptionType {
         UNABLE_TO_PARSE, CENSUS_FILE_PROBLEM
