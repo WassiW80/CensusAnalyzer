@@ -7,6 +7,7 @@ public class CensusDTO {
     public int population;
     public String stateCode;
 
+
     public CensusDTO(IndiaCensusCSV next) {
         state = next.state;
         totalArea = next.areaInSqKm;
