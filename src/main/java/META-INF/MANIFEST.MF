@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: commons-lang3-3.6.jar commons-logging-1.2.jar commons-beanut
+ ils-1.9.3.jar commons-collections-3.2.2.jar opencsv-4.0.jar commons-tex
+ t-1.1.jar gson-2.2.4.jar
+

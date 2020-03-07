@@ -5,13 +5,13 @@ public class CensusDTO {
     public String state;
     public double totalArea;
     public int population;
-    public String stateCode;
+    public String stateId;
 
 
     public CensusDTO(IndiaCensusCSV next) {
         state = next.state;
-        totalArea = next.areaInSqKm;
-        populationDensity = next.densityPerSqKm;
+        totalArea = next.totalArea;
+        populationDensity = next.populationDensity;
         population = next.population;
     }
 
@@ -19,7 +19,7 @@ public class CensusDTO {
         population = usCensusCSV.population;
         populationDensity = usCensusCSV.populationDensity;
         state = usCensusCSV.state;
-        stateCode = usCensusCSV.stateId;
+        stateId = usCensusCSV.stateId;
         totalArea = usCensusCSV.totalArea;
     }
 }

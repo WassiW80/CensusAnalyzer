@@ -8,10 +8,10 @@ public class IndiaStateCode {
     public String stateName;
 
     @CsvBindByName(column = "StateCode", required = true)
-    public String stateCode;
+    public String stateId;
 
     @Override
     public String toString() {
-        return "IndianStateCode{ 'State Name='" + stateName + '\'' + "'State Code'" + stateCode + '\'' + '}';
+        return "IndianStateCode{ 'State Name='" + stateName + '\'' + "'State Code'" + stateId + '\'' + '}';
     }
 }
